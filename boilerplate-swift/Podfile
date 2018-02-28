@@ -1,0 +1,19 @@
+platform :ios, '9.0'
+use_frameworks!
+
+xcodeproj 'boilerplate-swift.xcodeproj'
+
+def myPods
+pod 'Alamofire'
+pod 'Kingfisher'
+pod 'SnapKit'
+pod 'SwiftyJSON'
+pod 'MJRefresh'
+pod 'AsyncSwift'
+pod 'SVProgressHUD'
+pod 'pop'
+end
+
+target 'boilerplate-swift' do
+    myPods
+end
